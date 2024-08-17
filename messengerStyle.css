@@ -1,0 +1,153 @@
+.fullmessenger {
+    background-color: rgb(233 229 229);
+    padding: 20px 10px;
+    overflow: hidden;
+}
+
+.contactList {
+    background-color: rgb(233 229 229);
+    padding: 8px;
+    width: 25%;
+    float: left;
+}
+.contact {
+    margin-bottom: 2px;
+    background-color: white;  
+    padding: 5px;
+}
+.circularImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    vertical-align: middle;
+    float: left;
+}
+.circularImg img {
+    width:100%;
+}
+.brief {
+    float: left;
+    border-radius: 5px;
+    width: 60%;
+    margin-left: 10px;
+}
+.name {
+    font-weight: bold;
+}
+.message{
+    font-size: small;
+    color: #897f7f;
+}
+.sendingTime {
+    float: right;
+    font-size: 9px;
+    margin-top: 5px;
+}
+
+.messages {
+    width: 73%;
+    float: left;
+    margin-top: 8px;
+}
+.top {
+    margin-bottom: 1px;
+    background-color: white;
+    padding: 10px;
+}
+.activestatus {
+    font-size: small;
+    color: #897f7f; 
+}
+.profilePic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    vertical-align: middle;
+    float: left; 
+    margin-left: 15px;
+}
+.profilePic img {
+    width:100%;
+}
+
+.middle {
+    background-color: white;
+}
+.chattingProfile {
+    padding-top: 20px;
+}
+.receiverTxtProfilePic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    vertical-align: middle;
+    float: left; 
+    margin-left: 15px;
+    
+}
+.receiverTxtProfilePic img {
+    width: 100%;
+}
+.receiverTxt {
+    padding: 12px;
+    margin-left: 65px;
+    background-color: #d8f1f1;
+    border-radius: 15px 15px 15px 0px;
+    width: 70%;
+}
+.receivertxtTime {
+    float: right;
+    font-size: 9px;
+    margin-right: 100px;
+}
+.senderProfilePic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    vertical-align: middle;
+    float: right; 
+    margin-right: 15px;
+
+}
+.senderProfilePic img {
+    width: 100%;
+}
+.senderTxt {
+    padding: 12px;
+    margin-right: 10px;
+    background-color: #e9e2e2;
+    border-radius: 15px 15px 0px 15px;
+    width: 70%;
+    float: right;
+}
+.senderTxtTime {
+    float: left;
+    font-size: 9px;
+    margin-left: 100px;
+}
+
+.bottom {
+    background-color: white;
+}
+.typeMessage {
+    margin-top: 1px;
+}
+.message_text {
+    padding: 10px;
+    width: 83%;
+    border: 1px solid #dadada;
+}
+.send_button {
+    border-radius: 4px;
+    padding: 10px;
+    border: 1px solid #dadada;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    background-color: #6b6bec;
+    color: white;
+}
